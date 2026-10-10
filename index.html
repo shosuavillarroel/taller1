@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matius Corp, empresa de programación y desarrollo de soluciones digitales.">
+    <title>Matius Corp</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-blue-50">
+
+    <!-- ENCABEZADO -->
+    <header class="bg-blue-600 text-white p-4">
+        <nav class="flex items-center justify-center gap-3" aria-label="Menú principal">
+            <a href="#inicio" class="font-bold">Matius Corp</a>
+            <a href="#inicio" class="hover:bg-blue-700 transition px-4 py-2 rounded-lg">Inicio</a>
+            <a href="#nosotros" class="hover:bg-blue-700 transition px-4 py-2 rounded-lg">Nosotros</a>
+            <a href="#productos" class="hover:bg-blue-700 transition px-4 py-2 rounded-lg">Productos</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO -->
+        <section id="inicio" class="min-h-screen flex items-center justify-center p-8">
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm text-center">
+
+                <div class="w-28 h-28 bg-blue-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span class="text-white text-2xl font-bold">&lt;/&gt;</span>
+                </div>
+
+                <h1 class="text-2xl font-bold text-blue-600">Matius Corp</h1>
+
+                <p class="mt-6">
+                    Somos una empresa de programación dedicada a crear páginas web y soluciones digitales para negocios y emprendimientos.
+                </p>
+
+                <p class="mt-6">
+                    Nuestro objetivo es crear herramientas claras, útiles y fáciles de usar.
+                </p>
+
+                <div class="flex justify-center gap-3 mt-6">
+                    <a href="#productos" class="bg-blue-600 hover:bg-blue-700 transition text-white px-4 py-2 rounded-lg">
+                        Ver productos
+                    </a>
+                    <a href="#nosotros" class="bg-blue-50 hover:bg-blue-100 transition text-blue-600 px-4 py-2 rounded-lg">
+                        Conócenos
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        
+
+        <!-- NOSOTROS -->
+        <section id="nosotros" class="p-8">
+            <h2 class="text-2xl font-bold text-center text-blue-600 mb-4">Nosotros</h2>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm mx-auto text-center">
+                <p>
+                    Matius Corp nace con la idea de ayudar a personas y negocios a tener presencia en internet mediante páginas web sencillas y funcionales.
+                </p>
+
+                <h3 class="text-2xl font-bold text-blue-600 mt-6">Misión</h3>
+                <p class="mt-6">
+                    Crear soluciones digitales que sean útiles, claras y fáciles de manejar.
+                </p>
+
+                <h3 class="text-2xl font-bold text-blue-600 mt-6">Visión</h3>
+                <p class="mt-6">
+                    Crecer como empresa de programación y ofrecer un buen servicio a cada cliente.
+                </p>
+            </div>
+        </section>
+
+        <!-- VALORES -->
+        <section class="bg-blue-600 text-white p-8">
+            <h2 class="text-2xl font-bold text-center mb-4">Nuestros valores</h2>
+
+            <div class="grid grid-cols-3 gap-2">
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">Respeto</div>
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">Calidad</div>
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">Compromiso</div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section id="productos" class="p-8">
+            <h2 class="text-2xl font-bold text-center text-blue-600 mb-4">Productos y servicios</h2>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm mx-auto text-center">
+                <h3 class="text-2xl font-bold text-blue-600">Página web</h3>
+                <p class="mt-6">
+                    Creamos páginas para mostrar información de empresas, negocios y emprendimientos.
+                </p>
+                <p class="mt-6 font-bold text-blue-600">Desde $200</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm mx-auto mt-6 text-center">
+                <h3 class="text-2xl font-bold text-blue-600">Sistema básico</h3>
+                <p class="mt-6">
+                    Creamos herramientas para guardar y organizar información de un negocio.
+                </p>
+                <p class="mt-6 font-bold text-blue-600">Desde $350</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm mx-auto mt-6 text-center">
+                <h3 class="text-2xl font-bold text-blue-600">Mantenimiento</h3>
+                <p class="mt-6">
+                    Realizamos cambios, correcciones y mejoras en páginas web ya creadas.
+                </p>
+                <p class="mt-6 font-bold text-blue-600">Desde $50</p>
+            </div>
+        </section>
+
+        <!-- HERRAMIENTAS -->
+        <section class="bg-blue-600 text-white p-8">
+            <h2 class="text-2xl font-bold text-center mb-4">Herramientas que usamos</h2>
+
+            <div class="grid grid-cols-3 gap-2">
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">HTML</div>
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">CSS</div>
+                <div class="bg-blue-50 text-blue-600 p-4 rounded-lg text-center font-bold">Tailwind</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white text-blue-600 p-4 text-center">
+        <p class="font-bold">Matius Corp</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
